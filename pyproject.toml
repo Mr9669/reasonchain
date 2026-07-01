@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "reasonchain"
+version = "0.1.0"
+description = "结构化推理增强器 — 为任何LLM注入第一性原理推理能力"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Deep Think Lab"}]
+keywords = ["llm", "reasoning", "prompt-engineering", "first-principles", "ai"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/Mr9669/reasonchain"
+Repository = "https://github.com/Mr9669/reasonchain"
