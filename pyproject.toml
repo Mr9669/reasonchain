@@ -4,13 +4,13 @@ build-backend = "setuptools.backends._legacy:_Backend"
 
 [project]
 name = "reasonchain"
-version = "0.1.0"
-description = "结构化推理增强器 — 为任何LLM注入第一性原理推理能力"
+version = "0.3.0"
+description = "LLM reasoning depth optimizer with visible reasoning chains — see HOW your AI thinks"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
-authors = [{name = "Deep Think Lab"}]
-keywords = ["llm", "reasoning", "prompt-engineering", "first-principles", "ai"]
+authors = [{name = "ReasonChain Lab"}]
+keywords = ["llm", "reasoning", "chain-of-thought", "prompt-engineering", "ai"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
